@@ -29,6 +29,7 @@ class Product(db.Model):
         self.description = description
         self.price = price
         self.quantity = quantity
+
 # Product Schema
 class ProductSchema(ma.Schema):
     class Meta:
